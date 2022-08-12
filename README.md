@@ -1,2 +1,2 @@
-# Salmon_code_challenge
+# Salmon code challenge
 Code for interview
