@@ -53,10 +53,12 @@ In order to answer to the first question we need to know the
 distribution of the weight for the overall population of fish. We know
 for each month the number of fish and the total biomass in a cage. We
 assume that the distribution of the population follows a *Poisson
-distribution*: we picked this distribution because we need a discrete
-probability distribution, skewed and non-negative. We have to define the
-*λ* parameter of the distribution according to the data, each month will
-have a different distribution with a different *λ* parameter.
+distribution*: we picked this distribution because we need a probability
+distribution skewed and non-negative (we could use even other more
+flexible distributions but we didn’t have enough information on the
+weights distribution). We have to define the *λ* parameter of the
+distribution according to the data, each month will have a different
+distribution with a different *λ* parameter.
 
 Based on the data we have *61* categories of weight and each category is
 normally distributed with mean and standard deviation given as input.
